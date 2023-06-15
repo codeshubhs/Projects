@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background: #100e10;
+    margin-top: 40px;
+}
+.box{
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background: #1c1c1c;
+    border-radius: 8px;
+}
+.box form{
+position:absolute;
+inset: 4px;
+background: #222;
+padding:55px 6px;
+z-index: 2px;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+}
+.box form h2{
+    color:aliceblue;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
